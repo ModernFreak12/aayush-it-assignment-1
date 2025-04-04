@@ -379,16 +379,64 @@ hr {
 
 
 #page4 {
-    width: 104%;
-    height: 100%;
-    display: flex;
-    padding: 3.5vw;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    padding: 40px 80px;
+    text-align: center;
+    font-family: Arial, sans-serif;
 }
-#page4 #page4-title{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 800;
+
+#page4-title {
     font-size: 48px;
-    letter-spacing: 1px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+
+#page4-contents {
+    width: 100%;
+}
+
+.item {
+    width: 100%;
+    border-top: 1px solid black;
+    padding: 20px 0;
+}
+
+.category {
+    display: inline-block;
+    width: 150px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 30px;
+    vertical-align: middle;
+}
+
+.info {
+    display: inline-block;
+    justify-content: left;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.info h2 {
+    font-size: 20px;
+}
+
+.info p {
+    font-size: 12px;
+    margin: 5px 0 0;
+}
+
+.item:last-child {
+    border-bottom: 1px solid black;
 }
